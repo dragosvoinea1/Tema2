@@ -279,7 +279,6 @@ Nitu Adrian 45 Mancare_traditionala
         std::cin >> specializare;
         auto add_bucatar = std::make_shared<Bucatar>(nume, prenume, varsta, specializare);
         Restaurant::Adauga_angajat(add_bucatar);
-        std::cout << *add_bucatar;
     }
 
     std::cout<< "Meniu interactiv:\n Tasta 0 -> Exit \n Tasta 1 -> Cauta angajati dupa numele de familie \n Tasta 2 -> Afiseaza toti ospatarii\n";
